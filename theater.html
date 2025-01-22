@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Yeom Seung-Ah</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/nav.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Shadows+Into+Light&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+<style>
+  body{
+background-color:rgb(165,158,206);
+background-repeat:no-repeat;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 전체 높이를 채우기 위해 필요 */
+  display: flex;
+  flex-direction: column; /* 수직 정렬을 위해 설정 */
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.shadows-into {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.boogaloo-regular {
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+    color: rgb(255, 151, 167);
+    text-decoration: none;
+    padding:10px 20px;
+}
+a:link {
+  text-decoration: none;
+  color:rgb(255, 151, 167);
+}
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+a:active {
+  text-decoration: none;
+  color:rgb(255, 151, 167);
+}
+
+</style>
+
+<body>
+
+  <section id="nav-bar">
+    <div class="nav-fix">
+        <nav class="nav-main">
+          <a href="./index.html" class="nav-logo" style="padding: 0;">
+            <img src="./assets/logo.png" height="60" alt="logo" style="padding-right: 5px;" />
+            <span class="shadows-into logo-text" style="color: rgb(255, 151, 167); font-size: larger;"> Kenco</span>
+          </a>
+          
+          <div class="nav-li-align quicksand" >
+            <ul class="nav-ul">
+              <li class="nav-li"><a href="aboutme.html" >About me</a></li>
+              <li class="nav-li"><a href="myfavorite.html" >My favorites</a></li>
+              <li class="nav-li"><a href="bookreview.html" >Book review</a></li>
+              <li class="nav-li"><a href="contactme.html" >Contact me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+<!-- Contents -->
+<div class="center">
+  <img class="w3-image" src="./assets/theater/fvmv.jpg" alt="영화 연극 소개" width="1100">
+</div>
+
+<section id="footer">
+  <footer id="foot" role="contentinfo">
+    <small class="quicksand">
+        Copyright   © 2025 SeungAh Yeom
+    </small>
+</footer>
+</section>
+
+</body>
+</html>

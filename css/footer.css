@@ -1,0 +1,14 @@
+
+  #footer {
+    margin-top: auto; /* 푸터를 페이지 맨 아래로 이동 */
+    text-align: center; /* 중앙 정렬 */
+    background-color: #f9f9f9; /* 푸터 배경 설정 (투명도 조절 가능) */
+    padding: 10px;
+    width: 100%;
+    position: relative; /* 필요시 relative 설정 */
+  }
+
+  #foot {
+    color: rgb(199, 116, 210);
+    text-align: center;
+}

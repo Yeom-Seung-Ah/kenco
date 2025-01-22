@@ -1,0 +1,30 @@
+.nav-fix {
+    position: fixed; /* 네비게이션 바를 고정 */
+    top: 0; /* 화면 상단에 고정 */
+    left: 0; /* 좌측에 고정 */
+    width: 100%; /* 너비를 화면 너비와 동일하게 설정 */
+    z-index: 1000; /* 다른 요소 위에 표시되도록 인덱스 설정 */
+    background-color: #fff; /* 네비게이션 바 배경색 설정 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+.nav-main {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-li-align {
+    align-content: center;
+}
+
+.nav-ul {
+    list-style-type: none;;  
+}
+.nav-li {
+    display: inline-block;
+    width: max-content;
+}

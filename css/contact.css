@@ -1,0 +1,104 @@
+/* 기본 스타일 초기화 */
+h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(/assets/palette-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.hero-title {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1; /* 남은 화면 공간을 채움 */
+    padding: 40px 40px;
+    background: #fff;
+}
+
+.contact-item {
+    text-align: center;
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ef6694;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 1rem;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons .icon img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icons .icon img:hover {
+    transform: scale(1.2);
+}
+
+/* 전체 레이아웃 */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 화면 전체 높이를 사용 */
+}
+
+.hero-section {
+    flex: 0 0 50%; /* Hero Section은 화면의 절반 */
+}
+
+.contact-section {
+    flex: 1; /* Contact Section은 나머지 공간 */
+}
